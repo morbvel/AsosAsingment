@@ -38,27 +38,4 @@ $ spark-shell
  scala> spark.read.parquet("/path/to/sink/directory/ranking_movies_ratings_filename.parquet/name-of-parquet-file.parquet").show(false)
 ```
   - The result should be as follows:
-+-------+-------------------------------------------------------------------+-------------+-------+
-|movieId|movieTitle                                                         |averageRating|ranking|
-+-------+-------------------------------------------------------------------+-------------+-------+
-|787    |Gate of Heavenly Peace, The (1995)                                 |5.0          |1      |
-|3382   |Song of Freedom (1936)                                             |5.0          |2      |
-|3607   |One Little Indian (1973)                                           |5.0          |3      |
-|989    |Schlafes Bruder (Brother of Sleep) (1995)                          |5.0          |4      |
-|3656   |Lured (1947)                                                       |5.0          |5      |
-|3881   |Bittersweet Motel (2000)                                           |5.0          |6      |
-|1830   |Follow the Bitch (1998)                                            |5.0          |7      |
-|3280   |Baby, The (1973)                                                   |5.0          |8      |
-|3233   |Smashing Time (1967)                                               |5.0          |9      |
-|3172   |Ulysses (Ulisse) (1954)                                            |5.0          |10     |
-|3245   |I Am Cuba (Soy Cuba/Ya Kuba) (1964)                                |4.8          |11     |
-|53     |Lamerica (1994)                                                    |4.75         |12     |
-|2503   |Apple, The (Sib) (1998)                                            |4.67         |13     |
-|2905   |Sanjuro (1962)                                                     |4.61         |14     |
-|2019   |Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)|4.56         |15     |
-|318    |Shawshank Redemption, The (1994)                                   |4.55         |16     |
-|858    |Godfather, The (1972)                                              |4.52         |17     |
-|50     |Usual Suspects, The (1995)                                         |4.52         |18     |
-|745    |Close Shave, A (1995)                                              |4.52         |19     |
-|527    |Schindler's List (1993)                                            |4.51         |20     |
-+-------+-------------------------------------------------------------------+-------------+-------+
+![Expected Final Result](https://github.com/morbvel/AsosAsingment/blob/master/result.png)

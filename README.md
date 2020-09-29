@@ -6,6 +6,10 @@ The assingment is, based on three different files sources, expecting to create d
   - CSV with the list of different genders of movies and how many movies are in each of them
   - Parquet file incluiding the top 100 movies in terms of average rating - includes movie ID, movie title, average ranking and ranking (having 1 as the highest ranking)
 
+# Pre requirements
+If cloned, code can be launched without any pre requirements.
+Otherwise, it is required to place the MovieLens files into the main resources directory so the process can access them.
+
 # Launch the process
 First, make sure that the directory to be used as sink directory has the rights permissions to do so. If required, it might be needed to launch the following command with sudo permission.
 ```sh
